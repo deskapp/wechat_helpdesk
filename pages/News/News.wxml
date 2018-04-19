@@ -1,0 +1,18 @@
+<!--pages/News/News.wxml-->
+<view class="news_nav">
+  <block wx:for="{{newsMenuList}}" wx:key="id" wx:for-item="item">
+    <view class="news_nav_text" data-name="{{item.name}}" bindtap="newsNavClick">{{item.name}}
+    </view>
+  </block>
+</view>
+
+<view class="news">
+  <!-- data-* 保存数据的属性,组件触发事件时,会将数据发送给事件处理函数-->
+  <!-- bind* 组件的事件,bindtap="newsClick"点击事件-->
+  <view wx:for="{{newsList}}" wx:key="id" class="news_list" data-nid="{{item.id}}" data-ntitle="{{item.title}}" data-nimg="{{item.pic}}" data-nsource="{{item.url}}" bindtap="newsClick">
+    <text class='news_title'>{{item.title}}</text>
+    <text class='news_subTitle'>{{item.time}}</text>
+    <text class='news_subTitle'>{{item.src}}</text>
+    <text class='news_data'>{{item.content}}</text>
+  </view>
+</view>

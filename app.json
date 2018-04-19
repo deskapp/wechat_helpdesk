@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/News/News",
+    "pages/Zammad/Zammad",
+    "pages/logs/logs",
+    "pages/News/News-detail/News-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#194b75",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/index_unselect.jpg",
+        "selectedIconPath": "pages/images/index_select.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/News/News",
+        "iconPath": "pages/images/news_unselect.jpg",
+        "selectedIconPath": "pages/images/news_select.jpg",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/Zammad/Zammad",
+        "iconPath": "pages/images/zammad_unselect.jpg",
+        "selectedIconPath": "pages/images/zammad_select.jpg",
+        "text": "工单"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "pages/images/log_unselect.jpg",
+        "selectedIconPath": "pages/images/log_select.jpg",
+        "text": "日志"
+      }
+    ]
+  }
+}

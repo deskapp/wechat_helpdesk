@@ -1,0 +1,22 @@
+<!--pages/Zammad/Zammad.wxml-->
+<view class="welcomeinfo">{{userInfo.nickName}}, {{motto}}</view>
+<view class="location">Location:  {{location}}</view>
+<view>
+<view class="issue">
+  <view>
+    <text>Account:</text>
+    <input name="account" class="issue_input"></input>
+  </view>
+  <view>
+    <text>Title:</text>
+    <input name="title" class="issue_input"></input>
+  </view>
+  <view>
+    <text>Word:</text>
+    <textarea name="words" class="issue_input" ></textarea>
+  </view>
+</view>
+<view>
+  <button name='submitIssue' class='button' hover-class='button-hover' bindtap='submitIssue'>Submit</button>
+</view>
+</view>

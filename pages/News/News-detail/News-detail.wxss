@@ -1,0 +1,10 @@
+/* pages/News/News-detail/News-detail.wxss */
+view {
+    overflow: hidden;
+    display: block;
+}
+
+.news_detail {
+    border-bottom: 1rpx solid #bcbcbc;
+    padding: 10rpx 20rpx 30rpx 20rpx;
+}

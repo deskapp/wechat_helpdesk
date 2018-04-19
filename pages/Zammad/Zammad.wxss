@@ -1,0 +1,48 @@
+/* pages/Zammad/Zammad.wxss */
+.welcomeinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: #FF0000;
+}
+
+.location {
+  align-items: left;
+  margin: 20px;
+  color: #777;
+}
+
+.issue {
+  margin: 10px 20px;
+  display: block;
+  flex-direction: column;
+  align-items: left;
+  color: #777;
+}
+
+.issue_input {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px;
+  border-color: #777;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  width: 100px;
+  height: 35px; 
+  line-height: 35px;
+  margin-bottom: 10px;
+  background-color: #BBFFFF;
+  border: 1px;
+  border-color: #777;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+
+.button-hover {
+  background-color: #00E5EE;
+  opacity: 0.7;
+}
