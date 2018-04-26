@@ -97,7 +97,9 @@ Page({
     var news = [];
     for (let idx in data.list) {
       var subject = data.list[idx]; 
-      var content = subject.content.split('<p class=\"art_p\">')[1].replace('</p>', '');
+      var content = subject.content.split('<p')[1].replace('</p>', '');
+      var p = (content.indexOf(">") >= 0) ? content.indexOf('>') : -1;
+      content=content.substring(p+1,content.length);
       var temp = {
         id: idx,
         title: subject.title,
@@ -105,7 +107,7 @@ Page({
         src: subject.src,
         category: subject.category,
         pic: subject.pic,
-        content: content.replace(/\&nbsp;/g,''),
+        content: content.replace(/\&nbsp;/g, '').trim(),
         url: subject.url,
         weburl: subject.weburl
       }
