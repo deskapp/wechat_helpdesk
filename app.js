@@ -69,7 +69,7 @@ App({
     location: "",
     doubanBase: "https://api.douban.com/",
     jdwayBase: "https://way.jd.com/jisuapi/",
-    zammadBase: "https://test.zammad.org.cn/",
+    zammadBase: "https://u.zammad.com.cn/",
     jdwayAppkey: "5d5d7cc22129bfda94bed8a43e956b6c"
   }
 })

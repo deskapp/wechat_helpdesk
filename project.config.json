@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.6.6",
-	"appid": "wxcecb3b83dbd29741",
-	"projectname": "Zammad",
+	"appid": "wx396da4eb87da8b7d",
+	"projectname": "Helpdesk",
 	"condition": {
 		"search": {
 			"current": -1,
